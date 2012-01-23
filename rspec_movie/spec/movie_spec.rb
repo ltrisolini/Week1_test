@@ -2,13 +2,13 @@ require 'movie'
 
 describe Movie do
  subject { Movie.new }
-  it "is GoodReview!" do
-  Movie.new.GoodReview?.should be_true
+  it "is Title!" do
+  Movie.new.Title?.should be_true
  end
  
-  it "is BadReview!" do
+  it "is NoTitle!" do
   movie = Movie.new
-  movie.BadReview!
+  movie.NoTitle!
   movie.should be_true
  end
 end
