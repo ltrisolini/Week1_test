@@ -1,7 +1,7 @@
 class Movie
  attr_accessor :GoodReview
  def GoodReview?
- !BadReview
+ true
 end
  
  attr_accessor :BadReview
